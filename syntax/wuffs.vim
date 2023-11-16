@@ -106,7 +106,7 @@ hi def link wuffsDeclaration Special
 hi def link wuffsKeyword Keyword
 hi def link wuffsType Type
 hi def link wuffsString String
-hi def link wuffsScope StorageClass
+hi def link wuffsScope Macro
 
 if !exists("b:current_syntax")
   let b:current_syntax = "wuffs"
